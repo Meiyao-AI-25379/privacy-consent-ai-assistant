@@ -110,6 +110,12 @@ python -m pip install -r developed_ai/requirements.txt
 python -m uvicorn developed_ai.main:app --reload --port 8000
 ```
 
+### AI Model Development
+
+The complete model development workflow, including data augmentation, DeBERTa fine-tuning, prompt engineering and evaluation, is available here:
+
+[View AI Model Development Notebook](developed_ai/training/consent_ai_model_development.ipynb)
+
 ## Environment variables
 
 See `.env.example` for the required variables (database credentials, `NVIDIA_API_KEY`, CORS origin, etc.).
